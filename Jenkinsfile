@@ -7,21 +7,21 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-              sh echo "Step compile"
+              echo "Step compile"
             }
         }
 
         stage ('Testing Stage') {
 
             steps {
-            sh echo "Step Test"
+            echo "Step Test"
             }
         }
 
 
         stage ('Deployment Stage') {
             steps {
-                        sh echo "Step Deployment"
+                        echo "Step Deployment"
 
             }
         }
