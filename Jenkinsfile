@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'CDJobs'
+    }    
 
     stages {
         stage ('Compile Stage') {
